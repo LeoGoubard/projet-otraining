@@ -1,0 +1,151 @@
+#menu li {
+    float:left;
+    position:relative;
+}
+ 
+#menu li:hover {
+    z-index:20;
+    border-radius: 5px;
+}
+ 
+.menu-title {
+    font-family:$font-family-title;
+    padding-bottom: 2em;
+    font-size:1.5em; 
+    color: $white;
+}
+
+/* Drop Down */
+
+.dropdown_4columns {
+    margin:1.5em;
+    float:left;
+    position:absolute;
+    left:-999em; /* Hides the drop down */
+    text-align:left;
+    padding:1em;
+
+    border: $white 0.1rem solid;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#335c76+0,325a73+100&0.95+99,0+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(51,92,118,0.95) 0%, rgba(50,90,115,0.95) 99%, rgba(50,90,115,0) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(51,92,118,0.95) 0%,rgba(50,90,115,0.95) 99%,rgba(50,90,115,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(51,92,118,0.95) 0%,rgba(50,90,115,0.95) 99%,rgba(50,90,115,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2335c76', endColorstr='#00325a73',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+
+
+
+    // background-color: #82ccc8;
+    // background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+    // background: $color4;
+    border-radius:5px;
+}
+ 
+
+.dropdown_4columns {
+    // width: 73vw;
+    display: flex;
+    box-shadow: 1rem 0.5rem 0.5rem $color1;
+}
+ 
+#menu li:hover .dropdown_4columns{
+    left:-11em;
+    top: 1em;
+}
+ 
+/* Columns */
+ 
+.col_1, .col_2, .col_3 {
+    display:inline;
+    float: left;
+    position: relative;
+    margin: 1em;
+}
+.col_1, {
+    width:18em;
+    text-align: center;
+}
+
+.col_2 {
+    width:16em;
+    text-align: center;
+}
+
+.col_3 {
+    width:16em;
+    text-align: center;
+}
+
+
+/* Drop Down Content Stylings */
+
+#menu h3 {
+    font-family:$font-family-title;
+    font-size:1.4em;
+    color: white;
+    margin:7px 0 14px 0;
+    padding-bottom:7px;
+    border-bottom:1px solid #888888;
+}
+#menu p {
+    text-align: center;
+    margin-top: 3em;
+    line-height:18px;
+    font-size:1em;
+    color: $color5;
+    // width: 14em;
+    &.strong{
+        font-size: 1.2em;
+        text-align: center;
+        line-height: 1em;
+        color: $color5;
+        font-weight: bold;
+        margin-bottom: 1.5em;
+        
+    }
+}
+
+
+#menu li ul {
+    padding:0;
+    margin:1em;
+}
+
+#menu li ul li {
+    font-size:1em;
+    font-weight: bold;
+    line-height:1.5em;
+    position:relative;
+    float:none;
+    text-align:left;
+}
+.inline{
+    a{
+        font-size: 1em;
+    }
+}
+
+.col_button{
+    font-weight: bold;
+    padding: 0.7rem;
+    text-decoration: none;
+    margin-top: 1em;
+    color: white;
+    background-color: $teal;
+    border-radius: 7px;
+    border: none;
+    font-size: 1rem;
+
+}
+
+.col_button:hover{
+    cursor: pointer;
+    background-color: $color3;
+}
+
+

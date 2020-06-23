@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+
+@import
+    'abstracts/variables';
+
+
+@import
+    '~reset-css/sass/reset',
+    '~font-awesome/scss/font-awesome';
+
+
+@import
+    'base/base',
+    'base/typo';
+
+@import
+    'layout/header',
+    'layout/navbar',
+    'layout/section',
+    'layout/main',
+    'layout/footer',
+    'layout/page',
+    'layout/login',
+    'layout/search';
+
+
+@import
+    'components/buttons',
+    'components/menu-desktop',
+    'components/burger',
+    'components/cards',
+    'components/training',
+    'components/icons';
+

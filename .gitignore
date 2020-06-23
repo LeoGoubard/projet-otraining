@@ -1,0 +1,15 @@
+content/themes/otraining/public
+content/themes/otraining/node_modules
+
+/vendor
+/wp
+wp-config.php
+/content/languages
+/content/upgrade
+!/content/uploads
+/content/plugins/*
+!/content/themes/
+/content/themes/*
+!/content/themes/otraining
+!/content/plugins/*
+!/content/themes/otraining/public
