@@ -4,7 +4,7 @@
 Nous avons présenté notre projet le 16 juin 2020 sur la chaîne Twitch de l'école. Vous pouvez accéder au replay de la présentation sur la châine YouTube de l'école. [Cliquez-ici pour voir le replay.](https://www.youtube.com/watch?v=5aZ7fSWfxBE)
 Nous avons présenté notre projet en 1er (à 7min20 de la vidéo).
 
-Nous avons déployé notre site sur un serveur AWS, [cliquez-ici pour voir notre projet en ligne.](http://ec2-3-88-230-190.compute-1.amazonaws.com/otraining/wp_Otraining) 
+Le site n'est actuellement plus disponible (manque de credit AWS)
 
 #### Les Conditions du projet :
 Ce projet a été entièrement conçu sur une période de quatre semaines. Nous devions travailler en méthodologie Agile comprenant des sprints d'une semaine chacun :
